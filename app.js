@@ -33,8 +33,11 @@ btn.addEventListener("click", (event) => {
     dataYear.innerHTML = year.value;
     newRow.appendChild(dataYear);
 
-
     //displaying ui
     bookList.appendChild(newRow);
+
+    title.value = "";
+    author.value = "";
+    year.value = "";
   }
 });
